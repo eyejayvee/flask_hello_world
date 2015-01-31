@@ -29,7 +29,6 @@ def jedi(name, surname):
     "It is an honour to meet a Jedi of your race."
   </p>
   """
-  
   return html.format(surname[:3].title(),name[:2])
 
 if __name__ == "__main__":
