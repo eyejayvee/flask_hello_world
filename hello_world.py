@@ -13,7 +13,7 @@ def hello_person(name):
     return render_template('user.html', name=format(name.title()))
 
 
-#Left this the same so I can see the difference between this option and templating shown above
+# Left this the same so I can see the difference between this option and templating shown above
 @app.route("/jedi/<name>/<surname>")
 def jedi(name, surname):
     html = """
